@@ -1,0 +1,21 @@
+# Never commit disc images, BIOS files, save states, or packaged release binaries.
+*.bin
+*.iso
+*.img
+*.chd
+*.pbp
+*.mdf
+*.mds
+*.nrg
+*.ccd
+*.sub
+*.ecm
+*.cue
+*.sav
+*.srm
+*.mcr
+*.state
+*.xdelta
+*.zip
+*.7z
+*.rar
