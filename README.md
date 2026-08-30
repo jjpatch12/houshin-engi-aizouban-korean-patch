@@ -1,4 +1,4 @@
-# 봉신연의 애장판 한국어 패치 v0.1.0 (베타)
+# 봉신연의 애장판 한국어 패치 v0.9.0
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/613f2e54-d748-402b-999a-df4f0ef3eb6b" />
 
 ## Windows에서 적용하기
