@@ -1,6 +1,6 @@
 {
   "project": "Houshin Engi - Aizouban Korean Patch",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "status": "beta",
   "release_date": "2026-08-30",
   "game": {
@@ -16,17 +16,17 @@
     "sha256": "91DBAA601180A482DC00A42ED3CB6153367BCFB550C2058F86C4BCCC13D3E1C0"
   },
   "verified_output": {
-    "filename": "Houshin Engi - Aizouban (Japan) [Korean v0.9.0].bin",
+    "filename": "Houshin Engi - Aizouban (Japan) [Korean v0.9.1].bin",
     "size": 363266400,
-    "sha256": "559517B52DA9E0DA5BF7C750331754B5C56379F5EDE8C12FBDB6C5B0527B0567"
+    "sha256": "D420DC7E4AF216FD46E2D1506EAEE4675561D87F1F93A8257984403557257282"
   },
   "patch": {
-    "filename": "Houshin_Engi_Aizouban_Korean_v0.9.0.xdelta",
+    "filename": "Houshin_Engi_Aizouban_Korean_v0.9.1.xdelta",
     "format": "VCDIFF",
     "encoder": "xdelta3 3.2.0",
     "secondary_compression": "LZMA",
-    "size": 33212723,
-    "sha256": "CE25D0F86306FB9626370187232BD6D1B1DC82B68C4EA8599F61563BE67198AB",
+    "size": 33212900,
+    "sha256": "340D4333FC4AB67EE78E7EB6E72DD1D381E99E9D322A8DF42778B5932132EACF",
     "header_paths": "relative filenames only"
   },
   "bundled_tool": {
@@ -51,11 +51,21 @@
     "ui_sprites": 27,
     "pack_assets": 2,
     "safe_spacing_changes": 30,
-    "deferred_spacing_candidates": 40
+    "dialogue_safe_width_px": 172,
+    "dialogue_reflow_records": 495,
+    "dialogue_manual_fit_records": 242,
+    "voice_tag_records": 466,
+    "renderer_instruction_patches": 14,
+    "repacked_dialogue_banks": 7,
+    "deferred_fixed_slot_spacing_candidates": 40
   },
   "validation": {
     "xdelta_decode_matches_verified_output": true,
     "dialogue_structure_reextracted": true,
+    "dialogue_overflow_records": 0,
+    "dialogue_control_failures": 0,
+    "unsupported_dialogue_characters": 0,
+    "voice_metadata_hidden": true,
     "iso_readback": true,
     "mode2_edc_ecc": true,
     "full_playthrough": false
