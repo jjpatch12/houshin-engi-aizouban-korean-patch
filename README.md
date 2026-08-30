@@ -1,4 +1,4 @@
-# 봉신연의 애장판 한국어 패치 v0.1.0 (베타)
+# 봉신연의 애장판 한국어 패치 v0.9.0 (베타)
 
 PlayStation용 일본판 `Houshin Engi - Aizouban`(SLPM-86209)에 적용하는 비공식 한국어 차분 패치입니다. 이 배포물에는 원본 또는 패치된 전체 게임 이미지가 들어 있지 않습니다.
 
@@ -19,14 +19,14 @@ ISO, CHD, PBP, 병합·트림된 이미지, 다른 덤프, 이미 패치된 이�
 2. 깨끗한 원본 BIN을 그 폴더에 복사하고 이름을 정확히 `Houshin Engi - Aizouban (Japan).bin`으로 맞춥니다.
 3. 에뮬레이터를 완전히 종료한 뒤 `apply_patch.bat`를 실행합니다.
 4. 성공 메시지와 출력 SHA-256을 확인합니다.
-5. 동봉된 `Houshin Engi - Aizouban (Japan) [Korean v0.1.0].cue`를 에뮬레이터에서 불러옵니다.
+5. 동봉된 `Houshin Engi - Aizouban (Japan) [Korean v0.9.0].cue`를 에뮬레이터에서 불러옵니다.
 
 스크립트는 원본과 결과물의 SHA-256을 모두 검사하며, 기존 결과 파일을 덮어쓰지 않습니다. CUE는 별도 데이터가 아니라 생성될 한국어 BIN의 파일명과 원본 트랙 구조를 알려 주는 작은 목차 파일입니다.
 
 ### 수동 적용
 
 ```bat
-tools\xdelta3.exe -d -s "Houshin Engi - Aizouban (Japan).bin" "Houshin_Engi_Aizouban_Korean_v0.1.0.xdelta" "Houshin Engi - Aizouban (Japan) [Korean v0.1.0].bin"
+tools\xdelta3.exe -d -s "Houshin Engi - Aizouban (Japan).bin" "Houshin_Engi_Aizouban_Korean_v0.9.0.xdelta" "Houshin Engi - Aizouban (Japan) [Korean v0.9.0].bin"
 ```
 
 정상 결과:
